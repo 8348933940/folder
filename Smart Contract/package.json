@@ -1,0 +1,24 @@
+{
+  "name": "hardhatcontractdeployment",
+  "version": "1.0.0",
+  "description": "erc20 smart contract using Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web3",
+    "hardhat",
+    "ERC20"
+  ],
+  "author": "rajdeep",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
